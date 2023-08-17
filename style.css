@@ -1,0 +1,326 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+.sample1{
+    margin-top: 65px;
+    margin-left: 25px;
+}
+.logo{
+    height: 60px;
+    width: auto ;
+}
+.banner{
+    height: auto;
+    max-width: 100%;
+}
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.signup:hover{
+    background-color: #fc8019;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+h2{
+    color: #686b78;
+    margin-top: 10px;
+}
+.locationinput{
+    width: 70%;
+    height: 30px!important;
+    color: #535665;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px!important;
+    font-weight: 500;
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 324px;
+    left: 450px;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgray;
+}
+.food{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 53px;
+}
+.cities{
+    color: #a9abb2;
+    letter-spacing: -.2px;
+    margin: 30px 0 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.citylist{
+    width: 600px;
+    list-style: none;
+    margin-top: 20px;
+}
+.list{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b1e16;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.align{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 112px;
+    aspect-ratio: auto 112 / 206;
+    height: 206px;
+}
+.texthead{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10;
+    text-align: center;
+}
+.textalign{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    color: #e0cbc1;
+    text-align: center;
+}
+.texthead2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 5%;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -.45px;
+    color: #282c3f;
+    margin-top: 30%;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif; 
+}
+.textalign2{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+    color: #7e808c;
+    line-height: 1.2;
+}
+.gplay{
+    cursor: pointer;
+    height: 54px;
+    padding-left: 5%;
+}
+.aplay{
+    cursor: pointer;
+    height: 54px;
+}
+.container3{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.phone{
+    position: absolute;
+    top: 163.2%;
+    left: 65%;
+    height: 489px;
+    margin: 0;
+    padding: 0;
+}
+.phone1{
+    position: absolute;
+    top :143.8%;
+    left: 40%;
+    height: 489px;
+}
+.container4{
+    margin-top: 14.3%;
+    display: flex;
+    z-index: 10;
+    background-color: #000;
+    min-height: 298px;
+    width: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.company{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 76px;
+    padding-left: 150px;
+    margin-top: 30px;
+}
+.list2{
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 150px;
+    font-size: 17px;
+}
+.contact{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 76px;
+    padding-left: 150px;
+}
+.legal{
+    position: relative;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 76px;
+    padding-left: 150px;
+}
+.aplay2{
+    cursor: pointer;
+    height: 60px;
+    padding-top: 76px;
+    padding-left: 150px;
+}
+.gplay2{
+    cursor: pointer;
+    height: 60px;
+    padding-left: 150px;
+    padding-top: 16px;
+}
+.container5{
+    background-color: #000;
+    max-height: 290px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #4d4d4d;
+    border-top: 1px solid #4d4d4d;
+}
+.explore{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.explore1{
+    margin-top: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 150px;
+    margin-top: 65px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    cursor: pointer;
+}
+.explore2{
+    margin-top: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 350px;
+    margin-top: 65px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    cursor: pointer;
+}
+.footer{
+    background-color: #000;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    padding: 29px 0;
+}
+.swiggylogo2{
+    width: 142px;
+    height: 42px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.textalign3{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -.6px;
+    padding-top: 10px;
+    padding-left: 300px;
+}
+.media{
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+    padding-left: 300px;
+    cursor: pointer;
+}
+.media2{
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.media3{
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.media4{
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
